@@ -21,85 +21,691 @@ export default {
     cuestionario: {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
-      introduccion: '<b>Objetivo:</b> verificar la apropiación de conceptos técnicos sobre planificación, logística, productividad, seguridad y ambientes productivos en confección industrial.',
+      introduccion:
+        '<b>Objetivo:</b> verificar la apropiación de conceptos técnicos sobre planificación, logística, productividad, seguridad y ambientes productivos en confección industrial.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
-      preguntas: [{"id": 1, "texto": "¿Qué propósito cumple la planificación de la producción en una planta de confección industrial?", "imagen": "@/assets/actividad/imagen1.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Definir colores comerciales sin revisar capacidad instalada.", "esCorrecta": false}, {"id": "b", "texto": "Establecer qué producir, cuánto, con qué recursos y cuándo.", "esCorrecta": true}, {"id": "c", "texto": "Sustituir los controles de calidad por decisiones visuales.", "esCorrecta": false}, {"id": "d", "texto": "Eliminar la necesidad de fichas técnicas de producción.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de la planificación como proceso que organiza cantidades, recursos y secuencia temporal para responder a la demanda de manera eficiente.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 2, "texto": "¿Qué información integra el sistema MRP para calcular requerimientos de materiales?", "imagen": "@/assets/actividad/imagen2.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Plan maestro, lista de materiales y registros de inventario.", "esCorrecta": true}, {"id": "b", "texto": "Diseño comercial, fotografía del producto y vitrina final.", "esCorrecta": false}, {"id": "c", "texto": "Orden de empaque, etiqueta externa y catálogo promocional.", "esCorrecta": false}, {"id": "d", "texto": "Reporte de ventas, color institucional y exhibición comercial.", "esCorrecta": false}], "mensaje_correcto": "Se reconoce que el MRP calcula necesidades de insumos a partir del MPS, la BOM y los registros actualizados de inventario.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 3, "texto": "¿Qué riesgo genera registrar incorrectamente el tiempo de entrega de un insumo?", "imagen": "@/assets/actividad/imagen3.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Aumentar únicamente la variedad cromática del producto.", "esCorrecta": false}, {"id": "b", "texto": "Mejorar automáticamente la rotación de inventarios.", "esCorrecta": false}, {"id": "c", "texto": "Reducir siempre el consumo estándar de materiales.", "esCorrecta": false}, {"id": "d", "texto": "Generar órdenes tardías que detienen la producción.", "esCorrecta": true}], "mensaje_correcto": "Se demuestra apropiación del lead time como dato crítico para anticipar compras y evitar paradas de producción por falta de materiales.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 4, "texto": "¿Qué busca eliminar el enfoque lean manufacturing en confección industrial?", "imagen": "@/assets/actividad/imagen4.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Las referencias técnicas necesarias para cortar prendas.", "esCorrecta": false}, {"id": "b", "texto": "Las normas de operación segura de maquinaria textil.", "esCorrecta": false}, {"id": "c", "texto": "Las actividades que no agregan valor al producto.", "esCorrecta": true}, {"id": "d", "texto": "Las fichas de producción usadas por calidad.", "esCorrecta": false}], "mensaje_correcto": "Se identifica el enfoque lean como una metodología orientada a reducir desperdicios, tiempos improductivos y movimientos innecesarios.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 5, "texto": "¿Qué función cumple Kanban dentro de un módulo de confección?", "imagen": "@/assets/actividad/imagen5.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Regular el flujo mediante señales visuales entre estaciones.", "esCorrecta": true}, {"id": "b", "texto": "Reemplazar la inspección final por revisión comercial.", "esCorrecta": false}, {"id": "c", "texto": "Definir el precio final de cada prenda confeccionada.", "esCorrecta": false}, {"id": "d", "texto": "Eliminar la trazabilidad documental de los materiales.", "esCorrecta": false}], "mensaje_correcto": "Se reconoce Kanban como un sistema visual que controla el flujo de materiales y limita inventarios en proceso entre operaciones.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 6, "texto": "¿Qué representa el takt time en la gestión de una línea productiva?", "imagen": "@/assets/actividad/imagen6.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "El costo unitario asignado a una referencia textil.", "esCorrecta": false}, {"id": "b", "texto": "La cantidad total de tela almacenada en bodega.", "esCorrecta": false}, {"id": "c", "texto": "El ritmo necesario para satisfacer la demanda del cliente.", "esCorrecta": true}, {"id": "d", "texto": "La distancia recorrida por los operarios durante el turno.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión del takt time como ritmo de producción calculado con el tiempo disponible y la demanda del cliente.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 7, "texto": "¿Qué plantea la teoría de restricciones en procesos de confección industrial?", "imagen": "@/assets/actividad/imagen7.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Mejorar todos los puestos aunque no limiten el flujo.", "esCorrecta": false}, {"id": "b", "texto": "Identificar y gestionar la operación que limita la capacidad.", "esCorrecta": true}, {"id": "c", "texto": "Comprar más insumos sin revisar el inventario disponible.", "esCorrecta": false}, {"id": "d", "texto": "Incrementar inventario antes de cada estación productiva.", "esCorrecta": false}], "mensaje_correcto": "Se demuestra dominio de la TOC al reconocer que la mejora debe concentrarse en el cuello de botella que limita el sistema.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 8, "texto": "¿Qué acción corresponde a explotar una restricción sin inversión adicional?", "imagen": "@/assets/actividad/imagen8.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Trasladar defectos hacia la inspección final.", "esCorrecta": false}, {"id": "b", "texto": "Cambiar toda la distribución de la empresa.", "esCorrecta": false}, {"id": "c", "texto": "Suspender controles de calidad del proceso.", "esCorrecta": false}, {"id": "d", "texto": "Evitar paradas del recurso que limita el flujo.", "esCorrecta": true}], "mensaje_correcto": "Se reconoce que explotar la restricción implica maximizar el uso del recurso crítico antes de invertir en nueva capacidad.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 9, "texto": "¿Qué criterio utiliza la clasificación ABC para organizar inventarios de confección?", "imagen": "@/assets/actividad/imagen9.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Valor acumulado e impacto financiero de cada insumo.", "esCorrecta": true}, {"id": "b", "texto": "Color comercial aplicado en la temporada vigente.", "esCorrecta": false}, {"id": "c", "texto": "Ubicación estética de productos en vitrinas externas.", "esCorrecta": false}, {"id": "d", "texto": "Cantidad de operarios disponibles para empaque.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia apropiación de la clasificación ABC como herramienta para priorizar el control de materiales según su valor acumulado.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 10, "texto": "¿Qué caracteriza a los materiales clasificados como categoría A?", "imagen": "@/assets/actividad/imagen10.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Baja participación en valor y control ocasional.", "esCorrecta": false}, {"id": "b", "texto": "Alta participación en valor y control riguroso.", "esCorrecta": true}, {"id": "c", "texto": "Uso decorativo sin impacto en costos productivos.", "esCorrecta": false}, {"id": "d", "texto": "Almacenamiento libre sin conteos documentados.", "esCorrecta": false}], "mensaje_correcto": "Se identifica la categoría A como el grupo de insumos de mayor impacto económico, que exige conteos frecuentes y control documental.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 11, "texto": "¿Qué permite la trazabilidad de materiales en confección industrial?", "imagen": "@/assets/actividad/imagen1.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Eliminar la identificación de lotes en bodega.", "esCorrecta": false}, {"id": "b", "texto": "Sustituir el kardex por observación informal.", "esCorrecta": false}, {"id": "c", "texto": "Ocultar defectos detectados en producto terminado.", "esCorrecta": false}, {"id": "d", "texto": "Rastrear el recorrido del insumo durante el proceso.", "esCorrecta": true}], "mensaje_correcto": "Se reconoce la trazabilidad como capacidad de seguir materiales desde su recepción hasta su incorporación en la prenda terminada.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 12, "texto": "¿Qué documento soporta la entrega controlada de insumos a producción?", "imagen": "@/assets/actividad/imagen2.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Catálogo de moda con imágenes de temporada.", "esCorrecta": false}, {"id": "b", "texto": "Manual visual de exhibición comercial externa.", "esCorrecta": false}, {"id": "c", "texto": "Vale de salida asociado a la orden de producción.", "esCorrecta": true}, {"id": "d", "texto": "Encuesta de preferencia aplicada al consumidor final.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión del vale de salida como soporte de dispensación controlada y vinculación con la orden de producción.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 13, "texto": "¿Qué comprende el flujo de materiales en una empresa de confección?", "imagen": "@/assets/actividad/imagen3.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Recorrido de insumos, piezas y prendas dentro de planta.", "esCorrecta": true}, {"id": "b", "texto": "Selección publicitaria de colores para cada colección.", "esCorrecta": false}, {"id": "c", "texto": "Diseño de vitrinas para puntos comerciales externos.", "esCorrecta": false}, {"id": "d", "texto": "Registro exclusivo de salarios del personal operativo.", "esCorrecta": false}], "mensaje_correcto": "Se demuestra apropiación del flujo de materiales como recorrido interno de materias primas, piezas, prendas en proceso y productos terminados.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 14, "texto": "¿Qué tipo de distribución agrupa máquinas o actividades similares en una zona?", "imagen": "@/assets/actividad/imagen4.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Distribución por producto con secuencia única.", "esCorrecta": false}, {"id": "b", "texto": "Distribución celular para familias de prendas.", "esCorrecta": false}, {"id": "c", "texto": "Distribución mixta con módulos independientes.", "esCorrecta": false}, {"id": "d", "texto": "Distribución por proceso con áreas especializadas.", "esCorrecta": true}], "mensaje_correcto": "Se reconoce la distribución por proceso como organización de máquinas o actividades similares, como corte, planchado o terminados.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 15, "texto": "¿Qué efecto produce una mala ubicación de máquinas o insumos?", "imagen": "@/assets/actividad/imagen5.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Mayor precisión automática en el corte digital.", "esCorrecta": false}, {"id": "b", "texto": "Traslados innecesarios y pérdida de tiempo.", "esCorrecta": true}, {"id": "c", "texto": "Reducción total de inventario en proceso.", "esCorrecta": false}, {"id": "d", "texto": "Eliminación definitiva de controles técnicos.", "esCorrecta": false}], "mensaje_correcto": "Se identifica que una distribución deficiente genera congestión, manipulación excesiva, demoras y dificultades en el control de calidad.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 16, "texto": "¿Qué mide la eficiencia del operario en los indicadores de productividad?", "imagen": "@/assets/actividad/imagen6.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "La distancia entre bodega y área de despacho.", "esCorrecta": false}, {"id": "b", "texto": "La proporción de inventario almacenado por temporada.", "esCorrecta": false}, {"id": "c", "texto": "La relación entre producción real y producción estándar.", "esCorrecta": true}, {"id": "d", "texto": "La cantidad de señales de seguridad instaladas.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de la eficiencia del operario como comparación porcentual entre producción real y producción esperada según estándar.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 17, "texto": "¿Qué componentes integran el indicador OEE en maquinaria de confección?", "imagen": "@/assets/actividad/imagen7.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Disponibilidad, rendimiento y calidad del equipo.", "esCorrecta": true}, {"id": "b", "texto": "Bodega, vitrina y comunicación comercial externa.", "esCorrecta": false}, {"id": "c", "texto": "Escote, costado y ruedo de la prenda.", "esCorrecta": false}, {"id": "d", "texto": "Precio, descuento y rotación en almacén.", "esCorrecta": false}], "mensaje_correcto": "Se reconoce el OEE como indicador compuesto que integra disponibilidad, rendimiento y calidad para medir efectividad de equipos.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 18, "texto": "¿Qué función cumple la ficha técnica de producción?", "imagen": "@/assets/actividad/imagen8.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Promocionar la prenda en redes sociales externas.", "esCorrecta": false}, {"id": "b", "texto": "Sustituir la planificación por experiencia operaria.", "esCorrecta": false}, {"id": "c", "texto": "Reunir información necesaria para fabricar con especificaciones.", "esCorrecta": true}, {"id": "d", "texto": "Eliminar los criterios de aceptación y rechazo.", "esCorrecta": false}], "mensaje_correcto": "Se demuestra dominio de la ficha técnica como documento que unifica materiales, operaciones, tiempos, calidad, empaque y etiquetado.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 19, "texto": "¿Qué símbolo ASME representa una inspección en diagramas de flujo?", "imagen": "@/assets/actividad/imagen9.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Círculo utilizado para transformar el material.", "esCorrecta": false}, {"id": "b", "texto": "Flecha usada para transportar paquetes.", "esCorrecta": false}, {"id": "c", "texto": "Triángulo destinado a almacenar materiales.", "esCorrecta": false}, {"id": "d", "texto": "Cuadrado empleado para verificar calidad.", "esCorrecta": true}], "mensaje_correcto": "Se evidencia apropiación de la simbología ASME al identificar el cuadrado como representación de actividades de inspección.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}, {"id": 20, "texto": "¿Qué exige la operación segura de máquinas de coser industriales?", "imagen": "@/assets/actividad/imagen10.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Uso exclusivo de faja lumbar para toda operación.", "esCorrecta": false}, {"id": "b", "texto": "Aplicación de gafas de seguridad y calzado antideslizante.", "esCorrecta": true}, {"id": "c", "texto": "Eliminación del protocolo disponible en cada puesto.", "esCorrecta": false}, {"id": "d", "texto": "Trabajo sin pausas activas durante toda la jornada.", "esCorrecta": false}], "mensaje_correcto": "Se reconoce que la operación de máquinas de coser exige medidas de protección frente a punción por aguja, atrapamientos y rotura de aguja.", "mensaje_incorrecto": "Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados."}], 
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion: '<b>Objetivo:</b> verificar la apropiación de conceptos técnicos sobre planificación, logística, productividad, seguridad y ambientes productivos en confección industrial.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
+      preguntas: [
         {
           id: 1,
           texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+            '¿Qué propósito cumple la planificación de la producción en una planta de confección industrial?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Definir colores comerciales sin revisar capacidad instalada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Establecer qué producir, cuánto, con qué recursos y cuándo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir los controles de calidad por decisiones visuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la necesidad de fichas técnicas de producción.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de la planificación como proceso que organiza cantidades, recursos y secuencia temporal para responder a la demanda de manera eficiente.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 2,
           texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+            '¿Qué información integra el sistema MRP para calcular requerimientos de materiales?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Plan maestro, lista de materiales y registros de inventario.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Diseño comercial, fotografía del producto y vitrina final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Orden de empaque, etiqueta externa y catálogo promocional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reporte de ventas, color institucional y exhibición comercial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se reconoce que el MRP calcula necesidades de insumos a partir del MPS, la BOM y los registros actualizados de inventario.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 3,
           texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+            '¿Qué riesgo genera registrar incorrectamente el tiempo de entrega de un insumo?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar únicamente la variedad cromática del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejorar automáticamente la rotación de inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir siempre el consumo estándar de materiales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Generar órdenes tardías que detienen la producción.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se demuestra apropiación del <i>lead time</i> como dato crítico para anticipar compras y evitar paradas de producción por falta de materiales.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 4,
           texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
+            '¿Qué busca eliminar el enfoque <i>lean manufacturing</i> en confección industrial?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las referencias técnicas necesarias para cortar prendas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Las normas de operación segura de maquinaria textil.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Las actividades que no agregan valor al producto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Las fichas de producción usadas por calidad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se identifica el enfoque <i>lean</i> como una metodología orientada a reducir desperdicios, tiempos improductivos y movimientos innecesarios.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 5,
           texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
+            '¿Qué función cumple <i>Kanban</i> dentro de un módulo de confección?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Regular el flujo mediante señales visuales entre estaciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reemplazar la inspección final por revisión comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Definir el precio final de cada prenda confeccionada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar la trazabilidad documental de los materiales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se reconoce <i>Kanban</i> como un sistema visual que controla el flujo de materiales y limita inventarios en proceso entre operaciones.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 6,
           texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
+            '¿Qué representa el <i>takt time</i> en la gestión de una línea productiva?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El costo unitario asignado a una referencia textil.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La cantidad total de tela almacenada en bodega.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El ritmo necesario para satisfacer la demanda del cliente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La distancia recorrida por los operarios durante el turno.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión del <i>takt time</i> como ritmo de producción calculado con el tiempo disponible y la demanda del cliente.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 7,
           texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
+            '¿Qué plantea la teoría de restricciones en procesos de confección industrial?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mejorar todos los puestos aunque no limiten el flujo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Identificar y gestionar la operación que limita la capacidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Comprar más insumos sin revisar el inventario disponible.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Incrementar inventario antes de cada estación productiva.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se demuestra dominio de la TOC al reconocer que la mejora debe concentrarse en el cuello de botella que limita el sistema.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 8,
           texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
+            '¿Qué acción corresponde a explotar una restricción sin inversión adicional?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Trasladar defectos hacia la inspección final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cambiar toda la distribución de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Suspender controles de calidad del proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar paradas del recurso que limita el flujo.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se reconoce que explotar la restricción implica maximizar el uso del recurso crítico antes de invertir en nueva capacidad.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 9,
           texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
+            '¿Qué criterio utiliza la clasificación ABC para organizar inventarios de confección?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Valor acumulado e impacto financiero de cada insumo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Color comercial aplicado en la temporada vigente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ubicación estética de productos en vitrinas externas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cantidad de operarios disponibles para empaque.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia apropiación de la clasificación ABC como herramienta para priorizar el control de materiales según su valor acumulado.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
         {
           id: 10,
           texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+            '¿Qué caracteriza a los materiales clasificados como categoría A?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Baja participación en valor y control ocasional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Alta participación en valor y control riguroso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Uso decorativo sin impacto en costos productivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Almacenamiento libre sin conteos documentados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se identifica la categoría A como el grupo de insumos de mayor impacto económico, que exige conteos frecuentes y control documental.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Qué permite la trazabilidad de materiales en confección industrial?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar la identificación de lotes en bodega.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir el kardex por observación informal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ocultar defectos detectados en producto terminado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Rastrear el recorrido del insumo durante el proceso.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se reconoce la trazabilidad como capacidad de seguir materiales desde su recepción hasta su incorporación en la prenda terminada.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 12,
+          texto:
+            '¿Qué documento soporta la entrega controlada de insumos a producción?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Catálogo de moda con imágenes de temporada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Manual visual de exhibición comercial externa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Vale de salida asociado a la orden de producción.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Encuesta de preferencia aplicada al consumidor final.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión del vale de salida como soporte de dispensación controlada y vinculación con la orden de producción.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Qué comprende el flujo de materiales en una empresa de confección?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Recorrido de insumos, piezas y prendas dentro de planta.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Selección publicitaria de colores para cada colección.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diseño de vitrinas para puntos comerciales externos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Registro exclusivo de salarios del personal operativo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se demuestra apropiación del flujo de materiales como recorrido interno de materias primas, piezas, prendas en proceso y productos terminados.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 14,
+          texto:
+            '¿Qué tipo de distribución agrupa máquinas o actividades similares en una zona?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Distribución por producto con secuencia única.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Distribución celular para familias de prendas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Distribución mixta con módulos independientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Distribución por proceso con áreas especializadas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se reconoce la distribución por proceso como organización de máquinas o actividades similares, como corte, planchado o terminados.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 15,
+          texto:
+            '¿Qué efecto produce una mala ubicación de máquinas o insumos?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mayor precisión automática en el corte digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Traslados innecesarios y pérdida de tiempo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducción total de inventario en proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminación definitiva de controles técnicos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se identifica que una distribución deficiente genera congestión, manipulación excesiva, demoras y dificultades en el control de calidad.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué mide la eficiencia del operario en los indicadores de productividad?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La distancia entre bodega y área de despacho.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La proporción de inventario almacenado por temporada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La relación entre producción real y producción estándar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La cantidad de señales de seguridad instaladas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de la eficiencia del operario como comparación porcentual entre producción real y producción esperada según estándar.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué componentes integran el indicador OEE en maquinaria de confección?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Disponibilidad, rendimiento y calidad del equipo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Bodega, vitrina y comunicación comercial externa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Escote, costado y ruedo de la prenda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Precio, descuento y rotación en almacén.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se reconoce el OEE como indicador compuesto que integra disponibilidad, rendimiento y calidad para medir efectividad de equipos.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué función cumple la ficha técnica de producción?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Promocionar la prenda en redes sociales externas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir la planificación por experiencia operaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reunir información necesaria para fabricar con especificaciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar los criterios de aceptación y rechazo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se demuestra dominio de la ficha técnica como documento que unifica materiales, operaciones, tiempos, calidad, empaque y etiquetado.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué símbolo ASME representa una inspección en diagramas de flujo?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Círculo utilizado para transformar el material.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Flecha usada para transportar paquetes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Triángulo destinado a almacenar materiales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cuadrado empleado para verificar calidad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia apropiación de la simbología ASME al identificar el cuadrado como representación de actividades de inspección.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué exige la operación segura de máquinas de coser industriales?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso exclusivo de faja lumbar para toda operación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Aplicación de gafas de seguridad y calzado antideslizante.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminación del protocolo disponible en cada puesto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Trabajo sin pausas activas durante toda la jornada.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se reconoce que la operación de máquinas de coser exige medidas de protección frente a punción por aguja, atrapamientos y rotura de aguja.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
       ],
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra apropiación de los contenidos relacionados con gestión de la producción, logística interna, productividad, seguridad industrial y ambientes productivos.',
+      mensaje_final_reprobado:
+        'No se ha superado la actividad. Se recomienda revisar nuevamente el componente formativo e intentar otra vez la actividad.',
     },
   }),
 }
