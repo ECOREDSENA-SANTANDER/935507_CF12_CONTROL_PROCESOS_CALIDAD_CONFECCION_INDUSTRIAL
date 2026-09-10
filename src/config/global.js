@@ -36,16 +36,16 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.2',
+            numero: '1.1',
             titulo:
               '<i>Lean manufacturing</i> y <i>just in time</i> aplicados a la confección',
-            hash: 't_1_2',
+            hash: 't_1_1',
           },
           {
-            numero: '1.3',
+            numero: '1.2',
             titulo:
               'Teoría de restricciones en procesos de confección industrial',
-            hash: 't_1_3',
+            hash: 't_1_2',
           },
         ],
       },
