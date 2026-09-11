@@ -102,6 +102,12 @@ export default {
             titulo: 'Problemas frecuentes en el flujo de materiales',
             hash: 't_3_6',
           },
+          {
+            numero: '3.7',
+            titulo:
+              'Recomendaciones para mejorar la logística interna en confección',
+            hash: 't_3_7',
+          },
         ],
       },
       {
