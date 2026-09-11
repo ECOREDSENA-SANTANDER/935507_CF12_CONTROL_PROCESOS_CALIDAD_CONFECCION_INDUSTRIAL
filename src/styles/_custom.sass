@@ -131,7 +131,9 @@ figcaption
   color: $white
 .tabla-a.color-secundario thead 
     border-top: 5px solid #2ED19B;
-
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+      color: $color-sistema-texto !important
+      font-style: normal !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -151,7 +153,16 @@ figcaption
   &-2
     background-image: url(../assets/curso/temas/bg/5.png)
     background-position: center
-
+.bg
+  &-primario
+    background-color: $color-primario
+  &-secundario
+    background-color: $color-secundario
+  &-acento-contenido
+    background-color: $color-acento-contenido
+  &-acento-botones
+    background-color: $color-acento-botones
+    
 .bg-color
   &-1
     background-color: $color-primario

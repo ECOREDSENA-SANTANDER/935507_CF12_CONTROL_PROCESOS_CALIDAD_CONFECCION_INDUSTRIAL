@@ -178,11 +178,11 @@
                   td Corte y bodega centralizados, con módulos independientes de ensamble y terminados.
 
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/9.png', alt='')
+          img(src='@/assets/curso/temas/t3/9.png')
       
       .row.justify-content-center.mb-0
         .col-sm-12.col-lg-1.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t3/10.png', alt='')
+          img(src='@/assets/curso/temas/t3/10.png')
         .col-sm-12.col-lg-11
             p.mb-0 La distribución de planta debe favorecer recorridos cortos, secuencias claras y reducción de movimientos innecesarios. En confección, una ubicación inadecuada de máquinas, mesas o insumos puede generar congestión, pérdida de tiempo, manipulación excesiva de piezas y dificultades para controlar la calidad.
       
