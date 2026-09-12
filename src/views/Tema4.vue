@@ -62,18 +62,18 @@
                   td Minutos por unidad.
                   td Ritmo al que el sistema debe producir para satisfacer la demanda exacta del cliente.
 
-      p.mb-0(data-aos='fade-right') El balanceo de líneas es el proceso de asignar las operaciones del proceso productivo a los puestos de trabajo de manera que el tiempo total de cada puesto sea lo más cercano posible al takt time, eliminando así los tiempos de espera entre operaciones y maximizando la eficiencia de la línea. En una planta de confección organizada en módulos, el balanceo define cuántos operarios se asignan a cada operación y en qué secuencia se organizan los puestos dentro del módulo.
+      p.mb-0(data-aos='fade-right') El balanceo de líneas es el proceso de asignar las operaciones del proceso productivo a los puestos de trabajo de manera que el tiempo total de cada puesto sea lo más cercano posible al #[i takt time], eliminando así los tiempos de espera entre operaciones y maximizando la eficiencia de la línea. En una planta de confección organizada en módulos, el balanceo define cuántos operarios se asignan a cada operación y en qué secuencia se organizan los puestos dentro del módulo.
 
       Separador
       #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-        h2 4.1 OEE (<i>Overall Equipment Effectiveness</i>) en plantas de confección
+        h2 4.1 #[i OEE] (<i>Overall Equipment Effectiveness</i>) en plantas de confección
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-8
-          p.mb-5 Formalizado por la norma ISO 22400-2:2014 como indicador compuesto de gestión de la efectividad de los equipos en manufactura, el OEE (efectividad global del equipo) es el producto de tres factores que miden dimensiones independientes del desempeño de la maquinaria: disponibilidad, rendimiento y calidad. Su valor integra en un único número el porcentaje del tiempo productivo planificado que efectivamente genera productos conformes al ritmo esperado.
+          p.mb-5 Formalizado por la norma ISO 22400-2:2014 como indicador compuesto de gestión de la efectividad de los equipos en manufactura, el #[i OEE] (efectividad global del equipo) es el producto de tres factores que miden dimensiones independientes del desempeño de la maquinaria: disponibilidad, rendimiento y calidad. Su valor integra en un único número el porcentaje del tiempo productivo planificado que efectivamente genera productos conformes al ritmo esperado.
           .bg-color-3.p-5
-            p.mb-4.fw-bold Fórmula OEE (ISO 22400-2:2014): 
-            p.mb-3 #[b OEE (%) =] disponibilidad (%) × rendimiento (%) × calidad (%). 
+            p.mb-4.fw-bold Fórmula #[i OEE] (ISO 22400-2:2014): 
+            p.mb-3 #[b #[i OEE] (%) =] disponibilidad (%) × rendimiento (%) × calidad (%). 
             p.mb-3 #[b Donde:] disponibilidad = tiempo de operación / tiempo planificado de producción; rendimiento = (tiempo de ciclo ideal × cantidad producida) / tiempo de operación.
             p.mb-0 Calidad = cantidad de unidades conformes / cantidad total producida.
         .col-sm-12.col-lg-4.d-none.d-lg-block
@@ -83,7 +83,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
           .titulo-sexto.color-secundario
-            p.mb-0  #[b Tabla 13.] Componentes del OEE y pérdidas asociadas en maquinaria de confección
+            p.mb-0  #[b Tabla 13.] Componentes del #[i OEE] y pérdidas asociadas en maquinaria de confección
           .tabla-a.color-secundario
             table
               thead
@@ -108,7 +108,7 @@
                   td Proporción de unidades producidas que cumplen las especificaciones sin reproceso.
                   td Defectos, reprocesos, rechazos, prendas de segunda.
                   td Costuras descuadradas, puntada floja, referencias incorrectas detectadas en revisión.
-      p.mb-0(data-aos='fade-right') Un valor de OEE del 85 % se cita frecuentemente en la literatura industrial como referencia de desempeño de clase mundial para manufactura discreta (Nakajima, 1988). Sin embargo, este valor es una referencia de benchmarking y no un estándar normativo: cada empresa debe establecer sus propias metas en función del tipo de maquinaria, la variedad de referencias que procesa y las condiciones operativas de su planta. En el contexto de la confección colombiana, el seguimiento del OEE por máquina y por turno permite tomar decisiones informadas sobre mantenimiento preventivo, asignación de carga y programación de paros planificados.
+      p.mb-0(data-aos='fade-right') Un valor de #[i OEE] del 85 % se cita frecuentemente en la literatura industrial como referencia de desempeño de clase mundial para manufactura discreta (Nakajima, 1988). Sin embargo, este valor es una referencia de benchmarking y no un estándar normativo: cada empresa debe establecer sus propias metas en función del tipo de maquinaria, la variedad de referencias que procesa y las condiciones operativas de su planta. En el contexto de la confección colombiana, el seguimiento del #[i OEE] por máquina y por turno permite tomar decisiones informadas sobre mantenimiento preventivo, asignación de carga y programación de paros planificados.
   </template>
 
 <script>

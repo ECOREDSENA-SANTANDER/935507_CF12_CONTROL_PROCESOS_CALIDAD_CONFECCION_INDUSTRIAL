@@ -9,22 +9,22 @@
       
       
       img.d-none.d-lg-block.mb-5(src='@/assets/curso/temas/t6/1.png')(data-aos='fade-right')
-      p.mb-5(data-aos='fade-right')  La transformación digital de la industria de la confección no es una tendencia futura: es una realidad presente en las plantas de mayor competitividad del sector a nivel global y, en forma creciente, en las empresas exportadoras colombianas. Los sistemas de software especializados para la gestión de la producción en confección permiten integrar la información de diseño, patronaje, producción y calidad en una plataforma única, eliminando la duplicación de datos, reduciendo los errores de transcripción y acortando los tiempos de desarrollo de nuevas referencias.
+      p.mb-5(data-aos='fade-right')  La transformación digital de la industria de la confección no es una tendencia futura: es una realidad presente en las plantas de mayor competitividad del sector a nivel global y, en forma creciente, en las empresas exportadoras colombianas. Los sistemas de #[i software] especializados para la gestión de la producción en confección permiten integrar la información de diseño, patronaje, producción y calidad en una plataforma única, eliminando la duplicación de datos, reduciendo los errores de transcripción y acortando los tiempos de desarrollo de nuevas referencias.
 
       .bloque-texto-g.bloque-texto-g.bg-color-4.p-3.p-sm-4.p-md-5.br-3.mb-5(data-aos='fade-right')
         .bloque-texto-g__img.d-none.d-lg-block(
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t6/2.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column
-          p.mb-0 El mercado de #[i software] para la confección industrial está dominado por cuatro plataformas de referencia internacional, cada una con un posicionamiento diferenciado según las funciones que cubre, el tamaño de empresa al que se orienta y el nivel de integración con otros sistemas de gestión. En 2021, Lectra S.A. adquirió Gerber Technology, consolidando dos de los principales proveedores de software y maquinaria para la confección bajo una misma empresa, aunque ambas marcas y sus plataformas de software continúan operando en el mercado con sus nombres originales.
+          p.mb-0 El mercado de #[i software] para la confección industrial está dominado por cuatro plataformas de referencia internacional, cada una con un posicionamiento diferenciado según las funciones que cubre, el tamaño de empresa al que se orienta y el nivel de integración con otros sistemas de gestión. En 2021, Lectra S.A. adquirió Gerber Technology, consolidando dos de los principales proveedores de #[i software] y maquinaria para la confección bajo una misma empresa, aunque ambas marcas y sus plataformas de #[i software] continúan operando en el mercado con sus nombres originales.
 
       .titulo-sexto.color-secundario(data-aos='fade-right')
-        p.mb-0  #[b Tabla 16.] Plataformas de software especializadas para la gestión de la producción en confección
+        p.mb-0  #[b Tabla 16.] Plataformas de #[i software] especializadas para la gestión de la producción en confección
       .tabla-a.color-secundario.mb-5(data-aos='fade-right')
         table
           thead
             tr
-              th #[b Software]
+              th #[b #[i Software]]
               th #[b Proveedor]
               th #[b Módulos principales]
               th #[b Función en producción]

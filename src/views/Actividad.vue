@@ -66,7 +66,7 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué información integra el sistema MRP para calcular requerimientos de materiales?',
+            '¿Qué información integra el sistema <i>MRP</i> para calcular requerimientos de materiales?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -96,7 +96,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se reconoce que el MRP calcula necesidades de insumos a partir del MPS, la BOM y los registros actualizados de inventario.',
+            'Se reconoce que el <i>MRP</i> calcula necesidades de insumos a partir del <i>MPS</i>, la <i>BOM</i> y los registros actualizados de inventario.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
@@ -267,7 +267,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se demuestra dominio de la TOC al reconocer que la mejora debe concentrarse en el cuello de botella que limita el sistema.',
+            'Se demuestra dominio de la <i>TOC</i> al reconocer que la mejora debe concentrarse en el cuello de botella que limita el sistema.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },
@@ -571,7 +571,7 @@ export default {
         {
           id: 17,
           texto:
-            '¿Qué componentes integran el indicador OEE en maquinaria de confección?',
+            '¿Qué componentes integran el indicador <i>OEE</i> en maquinaria de confección?',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
@@ -597,7 +597,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se reconoce el OEE como indicador compuesto que integra disponibilidad, rendimiento y calidad para medir efectividad de equipos.',
+            'Se reconoce el <i>OEE</i> como indicador compuesto que integra disponibilidad, rendimiento y calidad para medir efectividad de equipos.',
           mensaje_incorrecto:
             'Se recomienda revisar nuevamente los contenidos del componente formativo para fortalecer la comprensión de los procedimientos técnicos abordados.',
         },

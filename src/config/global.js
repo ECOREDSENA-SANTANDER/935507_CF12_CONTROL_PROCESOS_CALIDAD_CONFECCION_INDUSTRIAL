@@ -119,7 +119,7 @@ export default {
           {
             numero: '4.1',
             titulo:
-              'OEE (<i>Overall Equipment Effectiveness</i>) en plantas de confección',
+              '<i>OEE (Overall Equipment Effectiveness)</i> en plantas de confección',
             hash: 't_4_1',
           },
         ],
