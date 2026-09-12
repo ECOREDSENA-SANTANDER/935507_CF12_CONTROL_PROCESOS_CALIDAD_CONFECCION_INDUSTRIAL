@@ -163,6 +163,18 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Gestión de ambientes productivos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema9',
+        numero: '9',
+        titulo: 'Tecnologías emergentes en la confección',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
