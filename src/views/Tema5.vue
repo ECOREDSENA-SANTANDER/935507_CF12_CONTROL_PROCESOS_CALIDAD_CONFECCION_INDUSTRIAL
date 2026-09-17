@@ -136,18 +136,17 @@
 
 
 
-      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
-        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Diagrama de flujo de proceso de confección de camiseta deportiva con simbología ASME
+      .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Figura 3.] Diagrama de flujo de proceso de confección de camiseta deportiva con simbología #[i ASME]
 
 
       .row.justify-content-center.mb-4(data-aos='fade-right')
         .col-12
           h4.tcus-2.text-center DIAGRAMA DE FLUJO DEL PROCESO DE CONFECCIÓN DE CAMISETA DEPORTIVA
-          h4.tcus-3.text-center.mb-0 Secuencia del proceso con simbología ASME
+          h4.tcus-3.text-center.mb-0 Secuencia del proceso con simbología #[i ASME]
       .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-10
-          img(src='@/assets/curso/temas/t5/5.svg')
+          img(src='@/assets/curso/temas/t5/5.svg', alt='Diagrama de flujo del proceso de confección de una camiseta deportiva, con 17 etapas que incluyen inspección, transporte, operaciones de confección, acabado, empaque y despacho, según simbología ASME.')
 
 
 

@@ -65,10 +65,10 @@
               td Desarrollo tecnológico en fase avanzada de investigación; la manipulación de materiales flexibles representa el mayor desafío técnico pendiente.
               td Cuando se masifique, exigirá la integración de sistemas de visión artificial para el control de calidad en línea, en reemplazo de la inspección manual.
             tr
-              td #[b IoT y monitoreo inteligente aplicado a la producción]
+              td #[b #[i IoT] y monitoreo inteligente aplicado a la producción]
               td Sensores conectados que monitorean en tiempo real las condiciones de temperatura, humedad, ruido, iluminación y el desempeño de cada máquina en la planta.
               td Implementación inicial en empresas colombianas vinculadas a programas de fábricas inteligentes; integración con sistemas de gestión de producción como SAP.
-              td Los datos del IoT permiten detectar desviaciones en las condiciones de producción que afectan la calidad antes de que el defecto se manifieste en la prenda.
+              td Los datos del #[i IoT] permiten detectar desviaciones en las condiciones de producción que afectan la calidad antes de que el defecto se manifieste en la prenda.
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-10
           .tarjeta--container.row.mb-0
@@ -97,9 +97,9 @@
       .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-12
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 4.]  Esquema de planta de confección con integración de tecnología IoT para el monitoreo de producción y condiciones ambientales en tiempo real
+            p.mb-0 #[b Figura 4.]  Esquema de planta de confección con integración de tecnología #[i IoT] para el monitoreo de producción y condiciones ambientales en tiempo real
           figure.mb-0
-            img.mb-4(src='@/assets/curso/temas/t9/6.svg')
+            img.mb-4(src='@/assets/curso/temas/t9/6.svg', alt='Planta de confección inteligente que muestra la integración de sensores IoT, monitoreo en tiempo real y conexión con un sistema ERP para optimizar la producción, calidad, mantenimiento, inventarios y despacho.')
 
 
 

@@ -24,6 +24,8 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/cEJQSM8UG3Q?si=yYXwdp_QuXAPoUWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Gestión de la producción y seguridad industrial
+
 
 </template>
 

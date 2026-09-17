@@ -70,7 +70,7 @@
               td C
               td 50 - 70 %
               td 5 - 10 %
-              td #[b Bajo:] revisiones por lote o por proyecto, stock de seguridad alto para evitar gestión frecuente.
+              td #[b Bajo:] revisiones por lote o por proyecto, #[i stock] de seguridad alto para evitar gestión frecuente.
               td Agujas, hilos de remate, bolsas plásticas de empaque, marquillas, cartones.
 
       

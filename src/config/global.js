@@ -240,7 +240,7 @@ export default {
     {
       termino: 'EPP',
       significado:
-        'elementos de protección personal utilizados para reducir la exposición a riesgos durante operaciones de corte, costura, planchado, cargue, descargue o manejo de insumos.',
+        ' Elementos de Protección Personal utilizados para reducir la exposición a riesgos durante operaciones de corte, costura, planchado, cargue, descargue o manejo de insumos.',
     },
     {
       termino: 'Ficha técnica de producción',
@@ -285,7 +285,7 @@ export default {
     {
       termino: 'SG-SST',
       significado:
-        'sistema de gestión de seguridad y salud en el trabajo que organiza acciones, responsabilidades, controles y medidas preventivas para proteger la salud del personal en el entorno laboral.',
+        ' Sistema de Gestión de Seguridad y Salud en el Trabajo que organiza acciones, responsabilidades, controles y medidas preventivas para proteger la salud del personal en el entorno laboral.',
     },
     {
       termino: 'Trazabilidad',
@@ -423,12 +423,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '--',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

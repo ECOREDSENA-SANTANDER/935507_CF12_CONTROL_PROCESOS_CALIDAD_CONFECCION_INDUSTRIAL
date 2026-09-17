@@ -45,19 +45,19 @@
             tr
               td #[b Optitex]
               td EFI Optitex
-              td Patronaje 2D/3D, simulación de tela, trazado, integración con PLM.
+              td Patronaje 2D/3D, simulación de tela, trazado, integración con #[i PLM].
               td Simulación del comportamiento de la tela en la prenda virtual, reduciendo ciclos de muestreo y costos de desarrollo.
               td Empresas con énfasis en desarrollo de producto y reducción de tiempos de lanzamiento al mercado.
             tr
               td #[b #[i Systems, Applications, and Products in Data Processing S/4HANA for Fashion and Vertical Business]]
               td SAP SE
               td Gestión de pedidos, planificación de la producción, control de inventarios, trazabilidad, finanzas, distribución.
-              td Integra todos los procesos del negocio en una plataforma ERP (#[i Enterprise Resource Planning]) especializada para el sector de prendas de vestir y calzado.
+              td Integra todos los procesos del negocio en una plataforma #[i ERP ( Enterprise Resource Planning)] especializada para el sector de prendas de vestir y calzado.
               td Grandes empresas con operaciones de producción, distribución y comercialización integradas.
 
 
 
-      p.mb-5(data-aos='fade-right') La implementación de estas plataformas en una planta de confección genera beneficios verificables en múltiples dimensiones. En el área de patronaje y corte, la optimización automática del trazo reduce el desperdicio de tela entre el 3 % y el 8 % con respecto al trazo manual, según los estudios publicados por Lectra S.A. para el sector. En la gestión de la producción, la integración del ERP con el piso de planta permite actualizar el avance de producción en tiempo real, eliminar los reportes manuales en papel y generar alertas automáticas cuando el ritmo de producción se desvía del plan.
+      p.mb-5(data-aos='fade-right') La implementación de estas plataformas en una planta de confección genera beneficios verificables en múltiples dimensiones. En el área de patronaje y corte, la optimización automática del trazo reduce el desperdicio de tela entre el 3 % y el 8 % con respecto al trazo manual, según los estudios publicados por Lectra S.A. para el sector. En la gestión de la producción, la integración del #[i ERP] con el piso de planta permite actualizar el avance de producción en tiempo real, eliminar los reportes manuales en papel y generar alertas automáticas cuando el ritmo de producción se desvía del plan.
 
       .cajon.color-acento-contenido.p-5.mb-0(data-aos='fade-right')
         p.mb-0 Concepto técnico: el índice de aprovechamiento de tela (IAT) es la relación entre el área total de los patrones trazados y el área total del metraje tendido, expresada en porcentaje. Un IAT del 85 % indica que el 15 % restante corresponde a desperdicio generado entre los patrones. La optimización computacional del trazo busca maximizar el IAT y reducir ese desperdicio.

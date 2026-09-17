@@ -50,7 +50,7 @@
             tr
               td Registro de inventario
               td Contiene el estado actualizado de las existencias, incluyendo cantidades disponibles, en tránsito y
-              td Controla el stock de telas, insumos de costura y avíos en bodega y en proceso.
+              td Controla el #[i stock] de telas, insumos de costura y avíos en bodega y en proceso.
             tr
               td Órdenes de producción
               td Documentos generados por el sistema que indican qué producir, cuánto y cuándo iniciar cada lote.
@@ -62,11 +62,10 @@
 
       p.mb-5(data-aos='fade-right') El principal aporte del #[i MRP] a la gestión de la confección consiste en transformar la gestión reactiva de insumos (comprar cuando ya no hay) en una gestión anticipada y documentada. El sistema calcula hacia atrás desde la fecha de entrega requerida y determina con precisión cuándo deben estar disponibles cada tela, hilo y accesorio para que la producción no se detenga. Para una empresa de confección que maneja decenas de referencias simultáneamente con proveedores que tienen tiempos de entrega variables, esta capacidad de anticipación es determinante.
 
-      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
-        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Estructura del sistema #[i MRP] y flujo de información entre sus componentes principales
-
-      img.mb-5(src='@/assets/curso/temas/t1/4.svg')(data-aos='fade-right')
+      
+      .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Figura 1.]  Estructura del sistema #[i MRP] y flujo de información entre sus componentes principales
+      img.mb-5(src='@/assets/curso/temas/t1/4.svg', lat='Diagrama de flujo del sistema MRP que muestra sus entradas, procesamiento y componentes principales: MPS, BOM y registro de inventario.')(data-aos='fade-right')
       .cajon.color-primario.p-4.mb-5(data-aos='fade-right')
         p.mb-0 El tiempo de entrega (#[i lead time]) de cada insumo es el parámetro más crítico del #[i MRP] en confección. Si los tiempos de entrega de las telas importadas no están correctamente registrados en el sistema, los cálculos del #[i MRP] generarán órdenes de compra tardías que paralizarán la producción.
 
@@ -117,13 +116,13 @@
               td Reducción del tiempo de cambio de referencia en máquinas planas, fileteadoras y collaretera entre pedidos.
 
       .cajon.color-acento-botones.p-4.mb-5(data-aos='fade-right')
-        p.mb-0 El #[i just in time (JIT)], como componente central del sistema Toyota, establece que los materiales e insumos deben estar disponibles exactamente cuando se necesitan, ni antes ni después. En la confección, esto implica sincronizar los pedidos de tela con el inicio de los módulos de corte, coordinar la entrega de insumos de costura con el avance de la producción y gestionar las relaciones con proveedores sobre la base de la confiabilidad y no exclusivamente del precio. La implementación del #[i JIT] en confección no elimina los inventarios, sino que los dimensiona con precisión a partir de la demanda real y de los tiempos de entrega verificados.
+        p.mb-0 El #[i just in time (JiT)], como componente central del sistema Toyota, establece que los materiales e insumos deben estar disponibles exactamente cuando se necesitan, ni antes ni después. En la confección, esto implica sincronizar los pedidos de tela con el inicio de los módulos de corte, coordinar la entrega de insumos de costura con el avance de la producción y gestionar las relaciones con proveedores sobre la base de la confiabilidad y no exclusivamente del precio. La implementación del #[i JiT] en confección no elimina los inventarios, sino que los dimensiona con precisión a partir de la demanda real y de los tiempos de entrega verificados.
 
-      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
-        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Módulo de costura organizado bajo principios #[i lean manufacturing] con control visual de producción
       
-      img.mb-0(src='@/assets/curso/temas/t1/6.svg')(data-aos='fade-right')
+
+      .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Figura 2.] Módulo de costura organizado bajo principios #[i lean manufacturing] con control visual de producción
+      img.mb-0(src='@/assets/curso/temas/t1/6.svg', alt='Ilustración de una planta de confección con distribución en U, tablero Kanban, puestos 5S, flujo continuo, reducción de desperdicios, indicador de takt time y balanceo del trabajo.')(data-aos='fade-right')
 
      
       
