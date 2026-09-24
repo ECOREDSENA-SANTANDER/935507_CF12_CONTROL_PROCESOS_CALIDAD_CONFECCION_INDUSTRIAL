@@ -38,7 +38,33 @@
       p.mb-3 El flujo de materiales representa el recorrido que siguen las materias primas, los insumos, las piezas cortadas, las prendas en proceso y el producto terminado dentro de la planta.
       p.mb-5 De manera general, el recorrido puede seguir esta secuencia:
       
-      img.mb-5(src='@/assets/curso/temas/t3/3.svg')
+      .container-fluid.py-5.d-flex.justify-content-center.align-items-center.bg-mint.mb-5
+        //- Contenedor con scroll horizontal de Bootstrap
+        .w-100.overflow-x-auto
+          .flow-diagram.mx-auto
+            //- Fila Superior (Izquierda a Derecha)
+            .step.step-light.chevron Recepción
+            .step.step-dark.chevron Almacenamiento
+            .step.step-light.chevron Extendido
+            .step.step-dark.chevron Corte
+            .step.step-light.turn-down Preparación
+
+            //- Fila Inferior (Derecha a Izquierda visualmente)
+            .step.step-dark.turn-up Despacho
+            .step.step-light.chevron-left Empaque
+            .step.step-dark.chevron-left Control de calidad
+            .step.step-light.chevron-left Acabados
+            .step.step-dark.chevron-left.last-flat Ensamble
+
+
+
+
+
+
+
+
+
+      //img.mb-5(src='@/assets/curso/temas/t3/3.svg')
       p.mb-5 Sin embargo, esta ruta puede variar según el diseño de la prenda, el número de piezas, las operaciones requeridas, la maquinaria utilizada y los controles de calidad establecidos.
 
       .titulo-tercer-nivel.mb-5
@@ -513,4 +539,144 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+:root
+  --flow-bg: #c9f4e5;
+  --flow-dark: #31425b;
+  --flow-light: #c9ccd6;
+  --flow-text-dark: #1b283d;
+  --flow-text-light: #ffffff;
+
+  /* Desktop */
+  --col-w: 175px;
+  --step-h: 64px;
+  --gap-x: 6px;
+  --gap-y: 30px;
+  --arrow-d: 18px;
+  --font-sz: 0.875rem;
+
+
+/* Breakpoint md/lg de Bootstrap (Tablets) */
+@media (max-width: 991.98px)
+  :root
+    --col-w: 135px;
+    --step-h: 52px;
+    --gap-x: 4px;
+    --gap-y: 24px;
+    --arrow-d: 14px;
+    --font-sz: 0.72rem;
+
+
+
+.bg-mint
+  background-color: var(--flow-bg) !important;
+
+
+/* Grilla del diagrama */
+.flow-diagram
+  display: grid;
+  grid-template-columns: repeat(5, var(--col-w));
+  grid-template-rows: var(--step-h) var(--step-h);
+  row-gap: var(--gap-y);
+  column-gap: var(--gap-x);
+  align-items: center;
+  width: max-content; /* Previene que las columnas se aplasten en pantallas pequeñas */
+
+
+/* Colores */
+.step-light
+  background-color: var(--flow-light);
+  color: var(--flow-text-dark);
+
+
+.step-dark
+  background-color: var(--flow-dark);
+  color: var(--flow-text-light);
+
+
+/* Base de cada paso */
+.step
+  height: var(--step-h);
+  font-size: var(--font-sz);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  line-height: 1.2;
+
+
+/* 1. Flechas superiores hacia la derecha */
+.step.chevron
+  padding: 0 calc(var(--arrow-d) * 0.8) 0 calc(var(--arrow-d) * 1.4);
+  clip-path: polygon(
+    0% 0%,
+    calc(100% - var(--arrow-d)) 0%,
+    100% 50%,
+    calc(100% - var(--arrow-d)) 100%,
+    0% 100%,
+    var(--arrow-d) 50%
+  );
+
+
+/* 2. Preparación (Esquina superior derecha hacia abajo) */
+.step.turn-down
+  height: calc(var(--step-h) + var(--gap-y));
+  margin-top: var(--gap-y);
+  align-items: flex-start;
+  padding-top: calc(var(--step-h) * 0.35);
+  padding-left: 10px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% calc(100% - calc(var(--gap-y) * 0.5)),
+    calc(100% - calc(var(--col-w) * 0.18)) 100%,
+    calc(100% - calc(var(--col-w) * 0.36)) calc(100% - calc(var(--gap-y) * 0.5)),
+    calc(100% - calc(var(--col-w) * 0.36)) var(--step-h),
+    0% var(--step-h),
+    var(--arrow-d) calc(var(--step-h) * 0.5)
+  );
+
+
+/* 3. Despacho (Esquina inferior izquierda hacia arriba) */
+.step.turn-up
+  height: calc(var(--step-h) + var(--gap-y));
+  margin-top: calc(var(--gap-y) * -1);
+  align-items: flex-end;
+  padding-bottom: calc(var(--step-h) * 0.35);
+  padding-left: calc(var(--col-w) * 0.12);
+  clip-path: polygon(
+    calc(var(--col-w) * 0.18) 0%,
+    calc(var(--col-w) * 0.36) calc(var(--gap-y) * 0.5),
+    calc(var(--col-w) * 0.36) var(--gap-y),
+    calc(100% - var(--arrow-d)) var(--gap-y),
+    100% calc(var(--gap-y) + calc(var(--step-h) * 0.5)),
+    calc(100% - var(--arrow-d)) 100%,
+    0% 100%,
+    0% calc(var(--gap-y) * 0.5)
+  );
+
+
+/* 4. Flechas inferiores hacia la izquierda */
+.step.chevron-left
+  padding: 0 calc(var(--arrow-d) * 1.4) 0 calc(var(--arrow-d) * 0.8);
+  clip-path: polygon(
+    var(--arrow-d) 0%,
+    100% 0%,
+    calc(100% - var(--arrow-d)) 50%,
+    100% 100%,
+    var(--arrow-d) 100%,
+    0% 50%
+  );
+
+
+/* 5. Ensamble (Borde final plano) */
+.step.chevron-left.last-flat
+  clip-path: polygon(
+    var(--arrow-d) 0%,
+    100% 0%,
+    100% 100%,
+    var(--arrow-d) 100%,
+    0% 50%
+  );
+</style>

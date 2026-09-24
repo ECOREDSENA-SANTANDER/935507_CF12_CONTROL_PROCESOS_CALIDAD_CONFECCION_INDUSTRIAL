@@ -12,8 +12,8 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t9/1.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column
-          p.mb-2 La cuarta revolución industrial integra tecnologías digitales, físicas y biológicas que están transformando los procesos productivos. En la industria de la confección, este cambio se refleja en el uso de herramientas digitales, fabricación aditiva y soluciones de automatización inteligente aplicadas al diseño, la producción y la distribución.
-          p.mb-0 Para el técnico en control de calidad, conocer estas tecnologías es importante porque modifican los métodos de verificación, los parámetros de calidad y las herramientas utilizadas durante la inspección de los productos.
+          p.mb-2 La cuarta revolución industrial integra tecnologías digitales, físicas y biológicas que están transformando los procesos productivos. En la industria de la confección, este cambio se refleja en el uso de herramientas digitales, fabricación aditiva y soluciones de automatización inteligente aplicadas al diseño, la producción y la distribución. 
+          p.mb-0 Es importante conocer estas tecnologías porque modifican los métodos de verificación, los parámetros de calidad y las herramientas utilizadas durante la inspección de los productos. 
       
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')

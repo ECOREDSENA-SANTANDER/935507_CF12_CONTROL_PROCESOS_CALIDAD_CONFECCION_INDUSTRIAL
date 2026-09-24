@@ -16,6 +16,7 @@
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t6/2.png')})`}"
         )
         .bloque-texto-g__texto.p-4.d-flex.flex-column
+          h4 #[i Software] de gestión de producción: Gerber, Lectra, Optitex y SAP Apparel
           p.mb-0 El mercado de #[i software] para la confección industrial está dominado por cuatro plataformas de referencia internacional, cada una con un posicionamiento diferenciado según las funciones que cubre, el tamaño de empresa al que se orienta y el nivel de integración con otros sistemas de gestión. En 2021, Lectra S.A. adquirió Gerber Technology, consolidando dos de los principales proveedores de #[i software] y maquinaria para la confección bajo una misma empresa, aunque ambas marcas y sus plataformas de #[i software] continúan operando en el mercado con sus nombres originales.
 
       .titulo-sexto.color-secundario(data-aos='fade-right')

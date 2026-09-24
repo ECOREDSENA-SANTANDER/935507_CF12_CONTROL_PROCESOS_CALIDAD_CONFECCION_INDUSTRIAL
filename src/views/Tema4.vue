@@ -7,15 +7,16 @@
           span 4
         h1 Indicadores de productividad
       
-      p.mb-5(data-aos='fade-right') En la gestión de la producción de confección, los indicadores de productividad son los instrumentos que convierten la observación del proceso en datos verificables, comparables y accionables. Su correcta definición, cálculo y análisis periódico es una competencia central del técnico en control de calidad, cuya función trasciende la inspección de la prenda terminada para abarcar el seguimiento del proceso en su conjunto.
+      p.mb-5(data-aos='fade-right') En la gestión de la producción de confección, los indicadores de productividad son herramientas que permiten transformar el seguimiento del proceso en datos verificables, comparables y útiles para la toma de decisiones. Su adecuada definición, cálculo y análisis periódico constituyen una competencia fundamental, ya que su aplicación trasciende la inspección de la prenda terminada y permite realizar un seguimiento integral del proceso productivo, identificar oportunidades de mejora y orientar acciones para optimizar el desempeño. 
 
       img.mb-0.d-none.d-lg-block(src='@/assets/curso/temas/t4/1.svg')(data-aos='fade-right')
       .row.justify-content-center.g-0.bg-primario.mb-5(data-aos='fade-right')
         .col-12
           .tarjeta.clr--pink.p-4.rounded-0.h-100
             .tarjeta.bg-white.p-4
+              h3 Pódcast. Eficiencia, tiempos estándares y balanceo de líneas
               TarjetaAudio.color-acento-botones.mb-0.p-4(
-              texto="Pódcast. Para profundizar en la eficiencia del proceso productivo, los tiempos estándar y el balanceo de líneas en confección, atienda el pódcast y reconozca cómo estos elementos contribuyen a optimizar las operaciones y mejorar el desempeño de la producción."
+              texto="Para profundizar en la eficiencia del proceso productivo, los tiempos estándar y el balanceo de líneas en confección, atienda el pódcast y reconozca cómo estos elementos contribuyen a optimizar las operaciones y mejorar el desempeño de la producción."
               :audio="require_src('@/assets/curso/temas/t4/podcast.mp3')"
           )
       .row.justify-content-center.mb-5(data-aos='fade-right')
