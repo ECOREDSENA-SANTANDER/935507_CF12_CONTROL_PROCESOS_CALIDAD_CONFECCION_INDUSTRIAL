@@ -142,7 +142,6 @@
 
       .row.justify-content-center.mb-4(data-aos='fade-right')
         .col-12
-          h4.tcus-2.text-center DIAGRAMA DE FLUJO DEL PROCESO DE CONFECCIÓN DE CAMISETA DEPORTIVA
           h4.tcus-3.text-center.mb-0 Secuencia del proceso con simbología #[i ASME]
       .row.justify-content-center.mb-0(data-aos='fade-right')
         .col-sm-12.col-lg-10
