@@ -14,7 +14,7 @@
         .col-12
           .tarjeta.clr--pink.p-4.rounded-0.h-100
             .tarjeta.bg-white.p-4
-              h3 Pódcast. Eficiencia, tiempos estándares y balanceo de líneas
+              h3 Pódcast. Eficiencia, tiempos estándares y balanceo de línea
               TarjetaAudio.color-acento-botones.mb-0.p-4(
               texto="Para profundizar en la eficiencia del proceso productivo, los tiempos estándar y el balanceo de líneas en confección, atienda el pódcast y reconozca cómo estos elementos contribuyen a optimizar las operaciones y mejorar el desempeño de la producción."
               :audio="require_src('@/assets/curso/temas/t4/podcast.mp3')"
