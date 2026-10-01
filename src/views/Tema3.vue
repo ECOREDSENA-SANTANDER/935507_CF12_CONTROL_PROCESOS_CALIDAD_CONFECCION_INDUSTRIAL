@@ -57,7 +57,7 @@
                 li.d-flex
                   .lista-ol--cuadro__vineta
                     span 4
-                  p.mb-0 Orte
+                  p.mb-0 Corte
                 li.d-flex.mb-0 
                   .lista-ol--cuadro__vineta
                     span 5
